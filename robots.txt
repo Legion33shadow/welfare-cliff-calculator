@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://legion33shadow.github.io/welfare-cliff-calculator/sitemap.xml
