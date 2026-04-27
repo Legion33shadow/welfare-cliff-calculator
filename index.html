@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="The welfare cliff is invisible but real. Calculate your TRUE net income at every salary level — including all benefits, tax credits and subsidies. US, UK, Canada, Germany.">
+<meta name="keywords" content="welfare cliff calculator, benefits cliff calculator, does earning more reduce benefits, true net income calculator, benefit trap">
+<meta name="robots" content="index,follow">
+<meta property="og:title" content="Welfare Cliff Calculator — Does Earning More Make You Poorer?">
+<meta property="og:description" content="The welfare cliff is invisible but real. Calculate your TRUE net income at every salary level — including all benefits, tax credits and subsidies. US, UK, Canada, Germany.">
+<link rel="canonical" href="https://legion33shadow.github.io/welfare-cliff-calculator/">
+<title>Welfare Cliff Calculator — Does Earning More Make You Poorer?</title>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5382997898313669" crossorigin="anonymous"></script>
+<style>
+:root{--p:#2563eb;--d:#1e40af;--g:#16a34a;--o:#ea580c;--bg:#f8fafc;--card:#fff;--t:#1e293b;--s:#64748b;--b:#e2e8f0}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--t);line-height:1.6}
+header{background:linear-gradient(135deg,var(--p),var(--d));color:#fff;padding:1.5rem 1rem;text-align:center}
+header h1{font-size:clamp(1.1rem,3.5vw,1.6rem);font-weight:800;margin-bottom:.4rem}
+header p{opacity:.88;font-size:.88rem;max-width:600px;margin:0 auto}
+.badge{display:inline-block;background:#ffffff25;border-radius:20px;padding:.2rem .7rem;font-size:.75rem;margin:.3rem .15rem}
+.container{max-width:720px;margin:1.5rem auto;padding:0 1rem}
+.card{background:var(--card);border-radius:14px;padding:1.5rem;box-shadow:0 1px 16px rgba(0,0,0,.06);margin-bottom:1.5rem;border:1px solid var(--b)}
+.card h2{color:var(--p);font-size:1.05rem;margin-bottom:1rem;padding-bottom:.5rem;border-bottom:2px solid var(--p);display:flex;align-items:center;gap:.4rem;font-weight:700}
+label{display:block;font-size:.82rem;color:var(--s);margin:.7rem 0 .25rem;font-weight:600;letter-spacing:.01em}
+input,select,textarea{width:100%;padding:.65rem .8rem;border:1.5px solid var(--b);border-radius:8px;font-size:.95rem;color:var(--t);background:#fff;transition:border .15s}
+input:focus,select:focus{outline:none;border-color:var(--p);box-shadow:0 0 0 3px #2563eb15}
+input[readonly]{background:#f1f5f9;cursor:default;color:var(--s)}
+button.primary{width:100%;padding:.8rem;background:var(--p);color:#fff;border:none;border-radius:8px;font-size:.95rem;font-weight:700;cursor:pointer;margin-top:.8rem;transition:background .2s;letter-spacing:.01em}
+button.primary:hover{background:var(--d)}
+button.secondary{width:100%;padding:.6rem;background:#f1f5f9;color:var(--t);border:1px solid var(--b);border-radius:8px;font-size:.85rem;cursor:pointer;margin-top:.4rem}
+button.secondary:hover{background:#e2e8f0}
+.result{background:#eff6ff;border-left:4px solid var(--p);border-radius:0 10px 10px 0;padding:1rem 1.2rem;margin-top:1rem;display:none}
+.result.show{display:block}
+.result.warn{background:#fff7ed;border-color:var(--o)}
+.result.good{background:#f0fdf4;border-color:var(--g)}
+.big{font-size:2rem;font-weight:800;color:var(--p);line-height:1.2}
+.big.warn{color:var(--o)}.big.good{color:var(--g)}
+.sub{font-size:.82rem;color:var(--s);margin-top:.25rem}
+.breakdown{font-size:.82rem;color:#475569;margin-top:.7rem;padding-top:.7rem;border-top:1px dashed #cbd5e1;line-height:1.8}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.row3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:.6rem}
+.chip{display:inline-block;background:#dbeafe;color:#1d4ed8;border-radius:5px;padding:.15rem .5rem;font-size:.73rem;font-weight:700;margin:.1rem}
+.chip.red{background:#fee2e2;color:#b91c1c}
+.chip.grn{background:#dcfce7;color:#15803d}
+.chip.org{background:#ffedd5;color:#c2410c}
+.info{background:#f0f9ff;border:1px solid #bae6fd;border-radius:8px;padding:.7rem 1rem;font-size:.82rem;color:#0369a1;margin:.6rem 0;line-height:1.6}
+.info.warn{background:#fff7ed;border-color:#fed7aa;color:#9a3412}
+.info.good{background:#f0fdf4;border-color:#bbf7d0;color:#166534}
+.progress-bar{height:12px;border-radius:6px;background:#e2e8f0;margin:.4rem 0;overflow:hidden}
+.progress-fill{height:100%;border-radius:6px;transition:width .5s;background:var(--p)}
+.ads{text-align:center;margin:.8rem 0;min-height:60px}
+footer{text-align:center;padding:1.5rem;color:var(--s);font-size:.78rem;border-top:1px solid var(--b);margin-top:1rem}
+@media(max-width:500px){.row2,.row3{grid-template-columns:1fr}.card{padding:1rem}.big{font-size:1.5rem}}
+</style>
+</head>
+<body>
+<header>
+<h1>Welfare Cliff Calculator — Does Earning More Make You Poorer?</h1>
+<p>The welfare cliff is invisible but real. Calculate your TRUE net income at every salary level — including all benefits, tax credits and subsidies. US, UK, Canada, Germany.</p>
+<div style="margin-top:.6rem"><span class="badge">🇺🇸 USA</span><span class="badge">🇬🇧 UK</span><span class="badge">🇨🇦 Canada</span><span class="badge">🇩🇪 Germany</span><span class="badge">📊 Visual cliff chart</span></div>
+</header>
+<div class="ads"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5382997898313669" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+<div class="container">
+
+<div class="card">
+<h2>💸 The Welfare Cliff Calculator</h2>
+<div class="info warn">⚠️ The welfare cliff is real: earning $1 more can cost you thousands in lost benefits. This tool shows your TRUE net income at every salary level.</div>
+<label>Current annual income ($)</label>
+<input type="number" id="wf_income" placeholder="28000" oninput="calcWelfare()">
+<label>Family size</label>
+<select id="wf_family" onchange="calcWelfare()">
+  <option value="1">Single adult</option>
+  <option value="2">Adult + 1 child</option>
+  <option value="3" selected>Adult + 2 children</option>
+  <option value="4">2 adults + 2 children</option>
+</select>
+<label>State / Region</label>
+<select id="wf_state" onchange="calcWelfare()">
+  <option value="us_avg">🇺🇸 USA (average)</option>
+  <option value="ca">🇨🇦 Canada</option>
+  <option value="uk">🇬🇧 United Kingdom</option>
+  <option value="de">🇩🇪 Germany (Bürgergeld)</option>
+</select>
+<button class="primary" onclick="calcWelfare()">Show my welfare cliff</button>
+<div class="result" id="res_wf">
+  <div class="big" id="val_wf"></div>
+  <div class="sub" id="sub_wf"></div>
+  <div class="breakdown" id="brk_wf"></div>
+</div>
+</div>
+
+<div class="card">
+<h2>📊 Net Income vs Gross Income (the cliff visualized)</h2>
+<p style="font-size:.83rem;color:#64748b;margin-bottom:.8rem">Each bar = your net income (after tax + benefits) at that salary level. Notice where it DROPS.</p>
+<div id="cliff_chart" style="display:none">
+<div id="cliff_bars" style="display:flex;flex-direction:column;gap:.3rem"></div>
+</div>
+</div>
+
+<div class="card">
+<h2>🎯 Your Breakeven Point</h2>
+<div class="info">💡 The <strong>breakeven salary</strong> is where earning more ALWAYS means more net income. Below this, a raise can make you poorer.</div>
+<div id="breakeven_res" style="font-size:.85rem;margin-top:.5rem"></div>
+</div>
+
+<script>
+const BENEFITS={
+  us_avg:{snap:[0,300,550,750],medicaid:[16985,22888,29160,35433],eitc:[0,3995,6604,7430],housing:500},
+  ca:{gis:[0,1200,1600,1900],ccb:[0,7437,10440,14000],housing:0},
+  uk:{uc_child:[0,2235,4435,5835],housing_benefit:200,council_tax:150},
+  de:{kindergeld:[0,250*12,500*12,750*12],wohngeld:200*12,buergergeld:563*12}
+};
+function getNetIncome(gross,family,region){
+  const f=family;
+  let benefits=0,tax=0;
+  if(region==='us_avg'){
+    const snap_inc=[19626,26572,33528,40484];
+    if(gross<snap_inc[f-1]) benefits+=BENEFITS.us_avg.snap[f-1]||0;
+    if(gross<BENEFITS.us_avg.medicaid[f-1]) benefits+=3600*(f);
+    const eitc=BENEFITS.us_avg.eitc[f-1]||0;
+    if(gross<45000) benefits+=Math.max(0,eitc*(1-Math.max(gross-28000,0)/17000));
+    if(gross<35000) benefits+=BENEFITS.us_avg.housing;
+    tax=gross>13850?Math.min(gross-13850,11600)*0.10:0;
+    if(gross>25450)tax+=(Math.min(gross,95375)-25450)*0.12;
+    if(gross>95375)tax+=(Math.min(gross,182950)-95375)*0.22;
+  } else if(region==='uk'){
+    const uc=BENEFITS.uk.uc_child[f-1]||0;
+    if(gross<35000) benefits+=uc*(1-Math.max(gross-12570,0)/35000*0.55);
+    if(gross<30000) benefits+=BENEFITS.uk.housing_benefit*12*(1-gross/30000);
+    tax=gross>12570?(Math.min(gross,50270)-12570)*0.20:0;
+    if(gross>50270)tax+=(gross-50270)*0.40;
+    tax+=gross>12570?Math.min(gross,50270)*0.08:0;
+  } else if(region==='de'){
+    benefits=BENEFITS.de.kindergeld[f-1]||0;
+    if(gross<25000) benefits+=BENEFITS.de.buergergeld*(1-gross/25000);
+    if(gross<20000) benefits+=BENEFITS.de.wohngeld*(1-gross/20000);
+    tax=gross>11604?(Math.min(gross,66761)-11604)*0.23:0;
+    if(gross>66761)tax+=(gross-66761)*0.42;
+  } else {
+    benefits=(BENEFITS.ca.ccb[f-1]||0)*(gross<80000?1:Math.max(0,1-(gross-80000)/40000));
+    if(gross<20000) benefits+=(BENEFITS.ca.gis[f-1]||0)*(1-gross/20000);
+    tax=gross>15705?(Math.min(gross,53359)-15705)*0.205:0;
+    if(gross>53359)tax+=(Math.min(gross,106717)-53359)*0.26;
+    if(gross>106717)tax+=(gross-106717)*0.29;
+  }
+  return {net:Math.round(gross+benefits-tax),benefits:Math.round(benefits),tax:Math.round(tax)};
+}
+function calcWelfare(){
+  const income=+document.getElementById('wf_income').value||0;
+  const family=+document.getElementById('wf_family').value;
+  const region=document.getElementById('wf_state').value;
+  if(!income)return;
+  const curr=getNetIncome(income,family,region);
+  const higher=getNetIncome(income+5000,family,region);
+  const netGain=higher.net-curr.net;
+  const isCLiff=netGain<2500;
+  const f=n=>new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
+  document.getElementById('val_wf').textContent=f(curr.net)+' real net';
+  document.getElementById('sub_wf').textContent='Your actual take-home at $'+income.toLocaleString()+' gross/year';
+  document.getElementById('brk_wf').innerHTML=
+    'Gross: '+f(income)+' · Benefits: +'+f(curr.benefits)+' · Tax: -'+f(curr.tax)+
+    ' · Net: '+f(curr.net)+
+    ' · If you earned $5k MORE: net gain = '+f(netGain)+
+    (isCLiff?' ⚠️ CLIFF ZONE: raise barely helps!':' ✅ Above the cliff');
+  document.getElementById('res_wf').className='result show '+(isCLiff?'warn':'good');
+  const points=[15000,20000,25000,30000,35000,40000,45000,50000,60000,75000];
+  const bars=document.getElementById('cliff_bars');
+  bars.innerHTML='';
+  const nets=points.map(g=>({g,data:getNetIncome(g,family,region)}));
+  const maxNet=Math.max(...nets.map(n=>n.data.net));
+  nets.forEach(p=>{
+    const pct=Math.round(p.data.net/maxNet*100);
+    const isHere=Math.abs(p.g-income)<7500;
+    bars.innerHTML+='<div style="display:flex;align-items:center;gap:.5rem;font-size:.75rem">'
+      +'<div style="width:60px;text-align:right;color:#64748b">$'+Math.round(p.g/1000)+'k</div>'
+      +'<div class="progress-bar" style="flex:1"><div class="progress-fill" style="width:'+pct+'%;background:'+(isHere?'#ea580c':'#2563eb')+'"></div></div>'
+      +'<div style="width:55px;font-weight:'+(isHere?'800':'400')+';color:'+(isHere?'#ea580c':'#1e293b')+'">$'+Math.round(p.data.net/1000)+'k</div>'
+      +'</div>';
+  });
+  document.getElementById('cliff_chart').style.display='block';
+  const breakeven=points.find((g,i)=>i>0&&nets[i].data.net>nets[i-1].data.net+3000);
+  document.getElementById('breakeven_res').innerHTML=breakeven?
+    '<div class="info good">✅ Above $'+breakeven.toLocaleString()+', earning more always means more net income.</div>':
+    '<div class="info warn">⚠️ The cliff extends through the income range shown. Increasing income may not help much until you reach a higher bracket.</div>';
+}
+window.onload=calcWelfare;
+</script>
+<div class="card" style="background:#f8fafc;border-style:dashed">
+<p style="font-size:.82rem;color:#64748b;text-align:center;line-height:1.7">
+⚠️ Tous les calculs sont des estimations basées sur les règles de 2026.
+Consultez un professionnel pour des décisions importantes. Mis à jour: 2026-04-28</p>
+</div>
+</div>
+<div class="ads"><ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5382997898313669" data-ad-slot="auto" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({});</script></div>
+<footer>
+<p>© 2026 Welfare Cliff Calculator — Does Earning More Make You Poorer? · https://legion33shadow.github.io/welfare-cliff-calculator</p>
+<p style="margin-top:.3rem;font-size:.75rem">Outil gratuit · Informations indicatives uniquement</p>
+</footer>
+</body></html>
