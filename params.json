@@ -1,0 +1,21 @@
+{
+  "slug": "welfare-cliff-calculator",
+  "country": "US",
+  "domain": "social_policy",
+  "law_reference": "US HHS Federal Poverty Guidelines & SNAP Cliff Thresholds",
+  "sources": [
+    "https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines",
+    "https://www.fns.usda.gov/snap"
+  ],
+  "sources_health": {
+    "https://aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines": {
+      "status": 200,
+      "reachable": true
+    },
+    "https://www.fns.usda.gov/snap": {
+      "status": 200,
+      "reachable": true
+    }
+  },
+  "signature_payload": "a3587657e20d89598299fcc8222a4eb4c6372e6a5a8ed191b0725da1e71e7721"
+}
