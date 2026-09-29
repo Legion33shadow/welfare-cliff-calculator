@@ -1,0 +1,12 @@
+{
+  "tool": "welfare-cliff-calculator",
+  "country": "US",
+  "category": "benefits",
+  "official_sources": [
+    "https://www.benefits.gov/",
+    "https://www.ssa.gov/",
+    "https://www.irs.gov/"
+  ],
+  "last_reviewed": "2026-09-28",
+  "source_status": "official_sources_listed_not_formula_verified"
+}

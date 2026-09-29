@@ -1,0 +1,14 @@
+{
+  "slug": "welfare-cliff-calculator",
+  "type": "calculator",
+  "country": "US",
+  "category": "benefits",
+  "official_sources": [
+    "https://www.benefits.gov/",
+    "https://www.ssa.gov/",
+    "https://www.irs.gov/"
+  ],
+  "claim_state": "method_unverified",
+  "phoenix_ready": false,
+  "limitations": "Benefit eligibility is complex and varies by state and household. This tool is informational only."
+}
